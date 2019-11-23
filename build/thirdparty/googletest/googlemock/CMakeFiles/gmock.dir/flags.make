@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREA
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/srijith/Cpp_ND/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include -I/home/srijith/Cpp_ND/CppND-Route-Planning-Project/thirdparty/googletest/googlemock -isystem /home/srijith/Cpp_ND/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/srijith/Cpp_ND/CppND-Route-Planning-Project/thirdparty/googletest/googletest 
+CXX_INCLUDES = -I/home/srijith/OSM-Route-Planner/thirdparty/googletest/googlemock/include -I/home/srijith/OSM-Route-Planner/thirdparty/googletest/googlemock -isystem /home/srijith/OSM-Route-Planner/thirdparty/googletest/googletest/include -isystem /home/srijith/OSM-Route-Planner/thirdparty/googletest/googletest 
 

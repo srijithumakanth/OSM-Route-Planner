@@ -1,4 +1,4 @@
-# Install script for directory: /home/srijith/Cpp_ND/CppND-Route-Planning-Project
+# Install script for directory: /home/srijith/OSM-Route-Planner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/srijith/Cpp_ND/CppND-Route-Planning-Project/build/thirdparty/pugixml/cmake_install.cmake")
-  include("/home/srijith/Cpp_ND/CppND-Route-Planning-Project/build/thirdparty/googletest/cmake_install.cmake")
+  include("/home/srijith/OSM-Route-Planner/build/thirdparty/pugixml/cmake_install.cmake")
+  include("/home/srijith/OSM-Route-Planner/build/thirdparty/googletest/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/srijith/Cpp_ND/CppND-Route-Planning-Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/srijith/OSM-Route-Planner/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

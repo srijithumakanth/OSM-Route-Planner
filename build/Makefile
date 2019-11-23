@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/srijith/Cpp_ND/CppND-Route-Planning-Project
+CMAKE_SOURCE_DIR = /home/srijith/OSM-Route-Planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/srijith/Cpp_ND/CppND-Route-Planning-Project/build
+CMAKE_BINARY_DIR = /home/srijith/OSM-Route-Planner/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srijith/Cpp_ND/CppND-Route-Planning-Project/build/CMakeFiles /home/srijith/Cpp_ND/CppND-Route-Planning-Project/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srijith/OSM-Route-Planner/build/CMakeFiles /home/srijith/OSM-Route-Planner/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srijith/Cpp_ND/CppND-Route-Planning-Project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srijith/OSM-Route-Planner/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
